@@ -1,0 +1,73 @@
+body {
+	 font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set the background color to black */
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+	color: white;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+.project h3 {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px; /* Increase font size for headings */
+    margin-bottom: 10px; /* Add spacing between heading and description */
+}
+
+.project p {
+	white-space: pre-line;
+    text-align: left;
+    font-family: 'Georgia', serif; /* Change font style for descriptions */
+    font-size: 16px;
+    margin-top: 20px; /* Add spacing between description and image */
+}
+
+.project img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Increase spacing around images */
+}
+/* Other styles... */
+
+.welcome-animation {
+    opacity: 0; /* Set initial opacity to hide the element */
+    animation: fadeIn 2s ease-in-out forwards; /* Apply the animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 2;
+        transform: translateY(-20px); /* Optional: Add a subtle upward animation */
+    }
+    100% {
+        opacity: 5;
+        transform: translateY(0);
+    }
+}
+
